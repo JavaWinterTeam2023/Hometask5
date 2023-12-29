@@ -7,9 +7,13 @@ import org.junit.platform.suite.api.SuiteDisplayName;
 import org.junit.runner.RunWith;
 
 
-
+@Suite
 @SuiteDisplayName("Your Logging Class Test Suite")
-@SelectClasses(ChargingStationLogTest.class)
+@SelectClasses({
+		ChargingStationLogTest.class,
+		SystemLogTesting.class,
+		ResourceBatteryTesting.class
+})
 
 public class TestSuit {
 
