@@ -13,11 +13,11 @@ public class TestEnvironment {
     	//chargingst.WriteToLogFile("station1", "Charging started successfully.");
     	//chargingst.WriteToLogFile("station2", "Maintenance required.");
          //chargingst.openLogFile(".*Station1.*");
-        EnergyManagementLog EnergyRsc= new EnergyManagementLog();
-        EnergyRsc.initializeLogsDirectory();
-        EnergyRsc.log("System", "System started");
-        EnergyRsc.logEquipmentActivity("Solar_Panel", "Charging started");
-        EnergyRsc.openRequestedLogFile();
+        //EnergyManagementLog EnergyRsc= new EnergyManagementLog();
+        //EnergyRsc.initializeLogsDirectory();
+       // EnergyRsc.log("System", "System started");
+       // EnergyRsc.logEquipmentActivity("Solar_Panel", "Charging started");
+       // EnergyRsc.openRequestedLogFile();
 
     }
 }

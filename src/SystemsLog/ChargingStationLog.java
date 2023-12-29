@@ -63,7 +63,7 @@ public class ChargingStationLog {
     }
     
     
-    public static void openLogFile(String filter) {
+    public  void openLogFile(String filter) {
     	 String regex = "[a-zA-Z0-9_-]+.*";
         Pattern pattern = Pattern.compile(filter,Pattern.CASE_INSENSITIVE);
         try (DirectoryStream<Path> stream = Files.newDirectoryStream(Paths.get(LOG_DIRECTORY))) {
