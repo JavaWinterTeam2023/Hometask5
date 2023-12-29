@@ -12,7 +12,8 @@ import org.junit.runner.RunWith;
 @SelectClasses({
 		ChargingStationLogTest.class,
 		SystemLogTesting.class,
-		ResourceBatteryTesting.class
+		ResourceBatteryTesting.class,
+		EnergySourceLoggerTest.class
 })
 
 public class TestSuit {
